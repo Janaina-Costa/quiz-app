@@ -3,11 +3,17 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      mobile: "375px",
-      tablet: "768px",
-      desktop: "1440px",
+      'tablet': "376px",
+      'desktop': "768px",
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "mobile-light-bg":"url(./assets/pattern-background-mobile-light.svg)",
+        "tablet-light-bg":"url(./assets/pattern-background-tablet-light.svg)",
+        "desktop-light-bg":"url(./assets/pattern-background-desktop-light.svg)",
+
+      },
+    },
   },
   plugins: [],
 };
