@@ -1,3 +1,27 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900"); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base {
+  :root {
+      --purple: #A729F5,
+      --chumbo-900: #313E51,
+      --chumbo-700: #3B4D66,
+      --chumbo-600: #626C7F,
+      --light-gray-blue: #ABC1E1,
+      --light-gray: #F4F6FA,
+      --white: #FFFFFF,
+      --green: #26D782,
+      --red: #EE5454,
+  }
+
+  html, body{
+    @apply m-0;
+    @apply p-0;
+    font-family:  "Rubik", sans-serif;
+  }
+  
+}
