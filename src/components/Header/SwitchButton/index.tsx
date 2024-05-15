@@ -1,7 +1,7 @@
 export const SwitchButton = () => {
   const buttonsIcons = [
     {
-      leftSwitchButton(fill:string = "#A729F5") {
+      leftSwitchButton(fill: string = "#A729F5") {
         return (
           <svg
             width="32"
@@ -34,5 +34,5 @@ export const SwitchButton = () => {
     // },
   ];
 
-  return <>{buttonsIcons.map(btn=>btn.leftSwitchButton())}</>;
+  return <>{buttonsIcons.map((btn) => btn.leftSwitchButton())}</>;
 };

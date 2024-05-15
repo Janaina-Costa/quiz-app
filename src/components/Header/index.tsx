@@ -6,7 +6,7 @@ import { SwitchButton } from "./SwitchButton";
 
 export const Header = () => {
   return (
-    <header className="w-full h- flex flex-1 gap-4 justify-between py-4 px-6 border border-b-2  ">
+    <header className="w-full h- flex flex-1 gap-4 justify-between py-4 px-6 border border-b-2">
       <QuestionTopic topic="Acessibilidade" />
 
       <div className="flex items-center gap-2 ">
