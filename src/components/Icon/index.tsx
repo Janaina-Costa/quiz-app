@@ -9,7 +9,7 @@ interface IProps {
 export const Icon = ({ icon, className, alt, height, width }: IProps) => {
   return (
     <figure className={`${className} flex items-center 
-    justify-center rounded`}
+    justify-center rounded-md`}
     >
       <img src={icon} alt={alt} width={width} height={height}/>
     
