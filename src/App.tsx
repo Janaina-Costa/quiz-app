@@ -1,10 +1,17 @@
-import './App.css'
+import { Header } from "./components/Header"
 
 function App() {
   return(
-    <h1 className='text-green-600' >
-      teste
-    </h1>
+    <main className={`
+    h-screen 
+    bg-mobile-light-bg tablet:bg-tablet-light-bg desktop:bg-desktop-light-bg
+    bg-cover bg-no-repeat
+    `}>
+  
+      
+        <Header/>
+
+    </main>
   )
 }
 
