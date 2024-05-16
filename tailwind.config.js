@@ -3,8 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      tablet: "480px",
-      desktop: "1044px",
+      tablet: "560px",
+      desktop: "1024px",
     },
     extend: {
       backgroundImage: {
