@@ -9,7 +9,7 @@ interface IProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 export const LinkButton = ({ icon, text, alt, ...props }: IProps) => {
   return (
     <button
-      className="bg-[--pure-white] w-full p-3 rounded-xl 
+      className="mb-6 bg-[--pure-white] w-full p-3 rounded-xl 
       flex items-center gap-4 shadow-[0_40px_16px_0_rgba(143,160,193,.14)]
       ] "
     >

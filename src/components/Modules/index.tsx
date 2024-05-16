@@ -2,7 +2,7 @@ import { StartMenu } from "./StartMenu"
 
 export const Main = ()=>{
   return(
-    <main className="flex px-6 pt-8" >
+    <main className=" pt-8 desktop:pt-24" >
       <StartMenu/>
     </main>
   )
